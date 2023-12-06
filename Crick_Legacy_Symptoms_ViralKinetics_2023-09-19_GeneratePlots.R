@@ -46,13 +46,15 @@ library(ggplotify)
 #library(systemfonts)
 library(khroma)
 library(patchwork)
+library(janitor)
 
 #--------------------------------------------------------------------#
+
 # Set working directory to the folder this script is in:
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+# setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # Start in peace
-rm(list = ls())
+# rm(list = ls())
 
 #--------------------------------------------------------------------#
 ## Load pre-processed legacy data ####
